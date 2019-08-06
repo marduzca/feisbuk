@@ -1,18 +1,16 @@
 package main
 
 class Feisbuk {
-    private val users: ArrayList<Person> = ArrayList()
 
     companion object {
-        var loggedInUser: Person? = null
+        internal var loggedInUser: String = ""
     }
 
     fun logIn(idName: String) {
-        loggedInUser = users.find { it.idName == idName }
+        loggedInUser = idName
     }
 
     fun logOut() {
-        loggedInUser = null
+        loggedInUser = ""
     }
-
 }
