@@ -31,8 +31,16 @@ internal class PostTest {
 
     @Test
     fun shouldNotUnlikeWhenTotalLikesIsZero() {
-        val testPost = Post("This is a test post")
-
         assertEquals(0, testPost.unlike())
+    }
+
+    @Test
+    fun shouldAddComment() {
+        val testCommentList: ArrayList<String> = ArrayList()
+
+        testCommentList.add("This is a test comment")
+        testPost.addComment(testCommentList[0])
+
+        assertEquals(testCommentList, testPost.getAllComments())
     }
 }
