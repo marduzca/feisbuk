@@ -18,5 +18,4 @@ class Wall {
     fun deletePostById(postId: Int) {
         postList.removeIf { it.id == postId }
     }
-
 }
