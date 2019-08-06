@@ -11,7 +11,7 @@ internal class FeisbukTest {
 
     @Test
     fun shouldLogInUser() {
-        feisbuk.logIn("testUser", "mypassword")
+        feisbuk.logIn("testUser")
 
         assertEquals("testUser", Feisbuk.loggedInUser)
     }
