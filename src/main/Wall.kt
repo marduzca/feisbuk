@@ -1,7 +1,7 @@
 package main
 
 class Wall {
-    private var postList : ArrayList<Post> = ArrayList()
+    private var postList: ArrayList<Post> = ArrayList()
 
     fun getAllPosts(): List<Post> {
         return postList

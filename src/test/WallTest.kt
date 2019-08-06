@@ -1,10 +1,8 @@
 package test
 
-import main.Person
 import main.Post
 import main.Wall
 import org.junit.Test
-import java.time.LocalDate
 import kotlin.test.assertEquals
 
 internal class WallTest {

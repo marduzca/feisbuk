@@ -1,6 +1,6 @@
 package main
 
-import java.util.ArrayList
+import java.util.*
 
 class Post(val content: String) {
     private var commentList: ArrayList<String> = ArrayList()
