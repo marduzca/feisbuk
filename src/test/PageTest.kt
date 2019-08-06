@@ -1,5 +1,12 @@
 package test
 
-import org.junit.Assert.*
+import org.junit.Test
 
-class PageTest
+class PageTest {
+
+    @Test
+    fun shouldLikePage() {
+
+    }
+
+}
